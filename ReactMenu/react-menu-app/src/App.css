@@ -1,0 +1,58 @@
+#download-btn{
+  background-color: rgb(126, 148, 2);
+  grid-area: download;
+}
+
+#home-btn{
+  background-color: rgb(230, 61, 125);
+  grid-area: home;
+}
+
+#join-us-btn{
+  background-color: rgb(8, 136, 158);
+  grid-area: join;
+}
+
+#settings-btn{
+  background-color: rgb(86, 131, 131);
+  grid-area: settings;
+}
+
+#help-btn{
+  background-color: rgb(74, 48, 122);
+  grid-area: help;
+}
+
+#search-btn{
+  background-color: rgb(56, 78, 20);
+  grid-area: search;
+}
+
+#login-btn{
+  background-color: rgb(153, 100, 2);
+  grid-area: login;
+}
+
+#contactUs-btn{
+  background-color: rgb(88, 21, 21);
+  grid-area: contact;
+}
+
+.hero-btn{
+  width:150px;
+  border-radius:20px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+.container{
+  padding-left: 100px;
+  padding-top: 50px;
+  display: grid;
+  grid-gap:10px;
+  grid-template-areas: " join setting "
+                       " login contact "
+                       " search help "
+                       " home download ";
+}

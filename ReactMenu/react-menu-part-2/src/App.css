@@ -1,0 +1,16 @@
+.App{
+  padding-left: 100px;
+  padding-top: 50px;
+  grid-gap:10px;
+  display: grid;
+  grid-template-areas: ". .";
+}
+
+.hero-btn{
+  width:150px;
+  border-radius:20px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
